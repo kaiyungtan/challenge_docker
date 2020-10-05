@@ -21,10 +21,10 @@ WARNING: For this challenge you have to put your dockerfile in an isolated folde
 You will reproduce the architecture of your collegues. Here it is:
 
     |   | /app
-    |   |-docker
-    |   |-Dockerfile -> your Dockerfile
+        |   |-docker
+        |   |-Dockerfile -> your Dockerfile
     
-    |-pipeline
+        |-pipeline
     
     |   |
     
