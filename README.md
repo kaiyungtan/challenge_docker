@@ -15,9 +15,12 @@ to properly use Docker and the important concepts of it:
 
 
 
-The Mission
+## The Mission
+
 You work for a company that creates ML models and ships them to their customer using APIs. Your team leader want to ship the next project using docker. He asks you to understand the basics of Docker in order to be effective for the next project.
+
 WARNING: For this challenge you have to put your dockerfile in an isolated folder named docker. It's not a best practice at all (do not do that later). The goal is to learn how you can build your image from a different folder than the folder where you have you code.
+
 You will reproduce the architecture of your collegues. Here it is:
 
       /app
@@ -35,7 +38,7 @@ You will reproduce the architecture of your collegues. Here it is:
     
 ### Steps
 - [X] Create a github repository.
-- [ ] Create the above directory structure in it.
+- [X] Create the above directory structure in it.
 - [ ] Create a Dockerfile that copy those files in an /app folder and run the model.py file.
 - [ ] Build your image
 - [ ] Run a container and verify that it prints the ouput of your model.py file.
