@@ -20,8 +20,10 @@ You work for a company that creates ML models and ships them to their customer u
 WARNING: For this challenge you have to put your dockerfile in an isolated folder named docker. It's not a best practice at all (do not do that later). The goal is to learn how you can build your image from a different folder than the folder where you have you code.
 You will reproduce the architecture of your collegues. Here it is:
 
-/app
-    |-docker
+
+
+|   | /app
+     |-docker
     
     |   |-Dockerfile -> your Dockerfile
     
