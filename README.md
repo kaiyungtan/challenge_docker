@@ -32,7 +32,7 @@ You will reproduce the architecture of your collegues. Here it is:
     |   |    |-utils.py -> print "in progress..."
     
 ### Steps
-[ ] Create a github repository.
+[X] Create a github repository.
 [ ] Create the above directory structure in it.
 [ ] Create a Dockerfile that copy those files in an /app folder and run the model.py file.
 [ ] Build your image
@@ -47,8 +47,8 @@ You will reproduce the architecture of your collegues. Here it is:
 
 
 ### Must-have features
-A nicely commented Dockerfile
-The same directory structure as above
-There are no more images or containers on your system
+* A nicely commented Dockerfile
+* The same directory structure as above
+* There are no more images or containers on your system
     
     
