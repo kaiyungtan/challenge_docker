@@ -32,18 +32,18 @@ You will reproduce the architecture of your collegues. Here it is:
     |   |    |-utils.py -> print "in progress..."
     
 ### Steps
-[] Create a github repository.
-[] Create the above directory structure in it.
-[] Create a Dockerfile that copy those files in an /app folder and run the model.py file.
-[] Build your image
-[] Run a container and verify that it prints the ouput of your model.py file.
-[] Connect to your container with SSH and run all the python files model.py, preprocessing.py, utils.py
-[] Stop you container and delete it (check that there are no more containers running with docker container ls -a)
-[] Run a new container using a volume to do changes without stopping the container and saving your changes. Connect to SSH so it stays running.
-[] Add two lines of code in each files locally (be creative!)
-[] Re-run all your python files to verify that the changes are effective in your container.
-[] Delete all your containers and images.
-[] Push your repo with your Dockerfile.
+[ ] Create a github repository.
+[ ] Create the above directory structure in it.
+[ ] Create a Dockerfile that copy those files in an /app folder and run the model.py file.
+[ ] Build your image
+[ ] Run a container and verify that it prints the ouput of your model.py file.
+[ ] Connect to your container with SSH and run all the python files model.py, preprocessing.py, utils.py
+[ ] Stop you container and delete it (check that there are no more containers running with docker container ls -a)
+[ ] Run a new container using a volume to do changes without stopping the container and saving your changes. Connect to SSH so it stays running.
+[ ] Add two lines of code in each files locally (be creative!)
+[ ] Re-run all your python files to verify that the changes are effective in your container.
+[ ] Delete all your containers and images.
+[ ] Push your repo with your Dockerfile.
 
 
 ### Must-have features
