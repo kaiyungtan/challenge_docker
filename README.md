@@ -21,22 +21,17 @@ WARNING: For this challenge you have to put your dockerfile in an isolated folde
 You will reproduce the architecture of your collegues. Here it is:
 
       /app
-        |   |-docker
-        |   |-Dockerfile -> your Dockerfile
-    
+       |-docker
+       |    |-Dockerfile -> your Dockerfile
+       |    |
        |-pipeline
-    
-       |-model
-    
-       |    |-model.py -> print a number between 1 and 400
-    
-       |-preprocessing
-    
-       |    |-preprocessing.py -> print a numpy array
-    
-       |-utils
-    
-       |    |-utils.py -> print "in progress..."
+       |    |
+       |    |-model
+       |    |     |-model.py -> print a number between 1 and 400
+       |    |-preprocessing
+       |    |     |-preprocessing.py -> print a numpy array
+       |    |-utils
+       |    |     |-utils.py -> print "in progress..."
     
 ### Steps
 - [X] Create a github repository.
