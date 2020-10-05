@@ -20,25 +20,23 @@ You work for a company that creates ML models and ships them to their customer u
 WARNING: For this challenge you have to put your dockerfile in an isolated folder named docker. It's not a best practice at all (do not do that later). The goal is to learn how you can build your image from a different folder than the folder where you have you code.
 You will reproduce the architecture of your collegues. Here it is:
 
-    |   | /app
+      /app
         |   |-docker
         |   |-Dockerfile -> your Dockerfile
     
-        |-pipeline
+       |-pipeline
     
-    |   |
+       |-model
     
-    |   |-model
+       |    |-model.py -> print a number between 1 and 400
     
-    |   |    |-model.py -> print a number between 1 and 400
+       |-preprocessing
     
-    |   |-preprocessing
+       |    |-preprocessing.py -> print a numpy array
     
-    |   |    |-preprocessing.py -> print a numpy array
+       |-utils
     
-    |   |-utils
-    
-    |   |    |-utils.py -> print "in progress..."
+       |    |-utils.py -> print "in progress..."
     
 ### Steps
 - [X] Create a github repository.
