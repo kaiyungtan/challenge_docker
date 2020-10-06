@@ -42,7 +42,7 @@ You will reproduce the architecture of your collegues. Here it is:
 - [X] Create a Dockerfile that copy those files in an /app folder and run the model.py file.
 - [X] Build your image : image created -- challenge_docker
 - [X] Run a container and verify that it prints the ouput of your model.py file.
-- [ ] Connect to your container with SSH and run all the python files model.py, preprocessing.py, utils.py
+- [X] Connect to your container with SSH and run all the python files model.py, preprocessing.py, utils.py
 - [ ] Stop you container and delete it (check that there are no more containers running with docker container ls -a)
 - [ ] Run a new container using a volume to do changes without stopping the container and saving your changes. Connect to SSH so it stays running.
 - [ ] Add two lines of code in each files locally (be creative!)
