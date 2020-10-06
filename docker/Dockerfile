@@ -1,15 +1,11 @@
-FROM tiangolo/uwsgi-nginx-flask:python3.6
+FROM python:3.7
 
-RUN mkdir /app/
-
-COPY /pipeline/model/model.py /app/
-COPY /pipeline/preprocessing/preprocessing.py /app/
-COPY /pipeline/utils/utils.py /app/
+RUN mkdir /app
 
 RUN pip install numpy
-RUN pip install random
 
-WORKDIR /app/
+ADD ./* $HOME/app/
 
-CMD ["python", "/app/model/model.py"]
+WORKDIR /app/model/
 
+CMD ["python", "model.py"]
